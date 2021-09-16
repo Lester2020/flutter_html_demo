@@ -1,0 +1,45 @@
+:root {
+    color-scheme: light dark; /* enable light and dark mode compatibility */
+    supported-color-schemes: light dark; /* enable light and dark mode */
+}
+
+body{
+    background-color: white;
+}
+
+.title{
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+#content{
+    margin-top: 10px;
+    text-align: left;
+    color: black;
+    font-size: 22px;
+}
+
+
+/* media query for dark mode */
+@media (prefers-color-scheme: dark) {
+    body{
+        background-color: #1a1a1a;
+    }
+    
+    .title{
+        margin-top: 15px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+
+    #content{
+        margin-top: 10px;
+        text-align: left;
+        color: white;
+        font-size: 22px;
+    }
+}
+
